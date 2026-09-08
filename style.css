@@ -1,6 +1,6 @@
 body {
-    background-color: #E6D0D2;
-    background: #E6D0D2;
+    background-color: #E6CCDF;
+    background: #E6CCDF;
     font-family: 'Be Vietnam', sans-serif;
     font-size: 9px;
     color: #2e2e2e;
@@ -62,11 +62,11 @@ a {
 }
 
 .nlinks {
-width: 30px; height: 30px; margin: 6px 5px; display: inline-block; background: rgba(217, 151, 132, 0.57); border: 1px solid #f8d8af; box-shadow: 0px 0px 5px rgba(0,0,0,0.02); transition: 0.3s; border-radius: 50%;
+width: 30px; height: 30px; margin: 6px 5px; display: inline-block; background: rgba(235, 181, 221); border: 1px solid #f8d8af; box-shadow: 0px 0px 5px rgba(0,0,0,0.02); transition: 0.3s; border-radius: 50%;
 }
 
 .nlinks:hover {
- background: rgba(217, 151, 132, 0.83); border: 1px solid #f8f3d1; transition: 0.3s;
+ background: rgba(232, 197, 223); border: 1px solid #7D2F69; transition: 0.3s;
 }
 
 @keyframes pulse {
@@ -120,7 +120,7 @@ width: 30px; height: 30px; margin: 6px 5px; display: inline-block; background: r
 }
 
 .grid {
-width: 1000px; height: 1000px; background-size: 34px 34px; background-image: linear-gradient(to right, #C0898D 1px, transparent 1px), linear-gradient(to bottom, #C0898D 1px, transparent 1px); position: absolute; left: -738px; top: -14px; background-color: #CE9AA0;
+width: 1000px; height: 1000px; background-size: 34px 34px; background-image: linear-gradient(to right, #C0898D 1px, transparent 1px), linear-gradient(to bottom, #C0898D 1px, transparent 1px); position: absolute; left: -738px; top: -14px; background-color: #EBB5DD;
 }
 
 .navi {
@@ -132,11 +132,11 @@ width: 150px; height: 500px; position: absolute; border-left:1px solid #e5e5e5; 
 }
 
 .screen {
-width: 280px; height: 180px; background: #fefefe; border: 1px solid #e5e5e5; position: absolute; border-radius: 20px; left: 35px; top: 49px; overflow: hidden; padding: 10px; box-shadow: 0px 0px 5px rgba(0,0,0,0.04); -webkit-animation: scale-up-center 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; animation: scale-up-center 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+width: 280px; height: 180px; background: #D2BCD4; border: 1px solid #e5e5e5; position: absolute; border-radius: 20px; left: 35px; top: 49px; overflow: hidden; padding: 10px; box-shadow: 0px 0px 5px rgba(0,0,0,0.04); -webkit-animation: scale-up-center 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; animation: scale-up-center 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 .icon {
-width: 50px; height: 50px; background: #fefefe; border: 1px solid #e5e5e5;border-radius:100%;
+width: 50px; height: 50px; background: #EBB5DD; border: 1px solid #e5e5e5;border-radius:100%;
 ; position: absolute; left: 50%; padding: 6px; margin-left: -32px; top: 30px; animation: pulse 2s infinite;
 }
 
@@ -148,7 +148,7 @@ width: 50px; height: 50px; background: #fefefe; border: 1px solid #e5e5e5;border
 
 }
 .username {
-width: 100px; height: 20px; border-radius: 3px; position: absolute; font-family: poppins; text-transform:none;font-weight: 900; left: 50%; margin-left: -60px; top: 100px; display: flex; align-items: center; justify-content: center; color: #F3E2C8; padding: 0px 10px 2px 10px; line-height: 100%;font-size:11px;
+width: 100px; height: 20px; border-radius: 3px; position: absolute; font-family: poppins; text-transform:none;font-weight: 900; left: 50%; margin-left: -60px; top: 100px; display: flex; align-items: center; justify-content: center; color: #EBB5DD; padding: 0px 10px 2px 10px; line-height: 100%;font-size:11px;
 }
 
 .pass {
@@ -167,8 +167,8 @@ width: 100px; height: 20px; border-radius: 3px; position: absolute; background: 
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(217, 151, 132, 0.51);
-  backdrop-filter: blur(12px);
+  background-color: rgba(234, 228, 235, 0.51);
+  backdrop-filter: blur(1px);
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -181,11 +181,11 @@ width: 100px; height: 20px; border-radius: 3px; position: absolute; background: 
 }
 
 .navbottom {
-width: 371px; height: 130px; background: #fefefe; border-top: 1px solid #e5e5e5; position: absolute; bottom: 0px;
+width: 371px; height: 130px; background: #fefefe; border-top: 1px solid #E2B5EB; position: absolute; bottom: 0px;
 }
 
 .navtext {
-width: 220px; height: 43px; border-bottom: 1px solid #e5e5e5; position: absolute; top: 0px;
+width: 220px; height: 43px; border-bottom: 1px solid #E2B5EB; position: absolute; top: 0px;
 }
 
 .mun {
@@ -201,7 +201,7 @@ width: 30px; height: 30px; display: flex; align-items: center; justify-content: 
 }
 
 .navextra {
-width: 150px; height: 130px; border-left: 1px solid #e5e5e5; position: absolute; right: 0px;
+width: 150px; height: 130px; border-left: 1px solid #E2B5EB; position: absolute; right: 0px;
 }
 
 .nave {
@@ -209,18 +209,18 @@ width: 100px; height: 80px; position: absolute; left: 25px; top: 25px; line-heig
 }
 
 .extra {
-margin-right: 12px; color: #E4B6A1;
+margin-right: 12px; color: #E2B5EB;
 }
 
 #fade {
  display: none;
- background: rgba(217, 151, 132, 0.51);
+ background: rgba(234, 228, 235, 0.51);
  position: fixed; 
  left: 0;
  top: 0;
  width: 100%; 
  height: 100%;
- z-index: 9999999; filter: blur(24px);  
+ z-index: 9999999; filter: blur(20px);  
 }
 
  .popup_block {
@@ -246,25 +246,25 @@ margin-right: 12px; color: #E4B6A1;
 }
 
 .profile {
-width: 325px; height: 250px; background: #fefefe; border: 1px solid #e5e5e5; position: absolute; left: 35px; border-radius: 30px; box-shadow: 0px 0px 5px rgba(0,0,0,0.04);
+width: 325px; height: 250px; background: #fefefe; border: 1px solid #EBD1F0; position: absolute; left: 35px; border-radius: 30px; box-shadow: 0px 0px 5px rgba(0,0,0,0.04);
 }
 
 .buttonie {
-width: 26px; height: 26px; background: rgba(217, 151, 132, 0.51); position: absolute; border-radius: 50%; right: 15px; top: 15px; display: flex; align-items: center; justify-content: center; color: rgba(217, 151, 132, 0.51); font-size: 14px; border: 1px solid #f8f3d1; transition: 0.3s; cursor: pointer;
+width: 26px; height: 26px; background: rgba(235, 209, 240, 0.51); position: absolute; border-radius: 50%; right: 15px; top: 15px; display: flex; align-items: center; justify-content: center; color: rgba(217, 151, 132, 0.51); font-size: 14px; border: 1px solid #f8f3d1; transition: 0.3s; cursor: pointer;
 }
 
 .buttonie:hover {
-    transition: 0.3s; background: rgba(248,216,175,0.5); border: 1px solid #f8d8af;
+    transition: 0.3s; background: rgba(235, 209, 240,0.5); border: 1px solid #f8d8af;
 }
 .pfp {
-width: 80px; height: 80px; border: 1px solid #e5e5e5; position: absolute; top: 30px; left: 50%; margin-left: -51px; border-radius: 50%; padding: 10px; background: #fefefe; animation: pulse 2s infinite;
+width: 80px; height: 80px; border: 1px solid #e5e5e5; position: absolute; top: 30px; left: 50%; margin-left: -51px; border-radius: 50%; padding: 10px; background: #EAE4EB; animation: pulse 2s infinite;
 }
 
 .pfp img {
     width: 80px; height: 80px; border-radius: 50%;
 }
 .ocname {
-width: 250px; height: 20px; position: absolute; left: 35px; top: 150px; font-family: poppins; text-transform: uppercase; font-size: 18px; font-weight: 800; color: #D9957E; text-align: center;
+width: 250px; height: 20px; position: absolute; left: 35px; top: 150px; font-family: poppins; text-transform: uppercase; font-size: 18px; font-weight: 800; color: #EBD1F0; text-align: center;
 }
 
 .info1 {
@@ -308,7 +308,7 @@ width: 215px; font-family: poppins; font-size: 8px; font-weight: 700; text-trans
 }
 
 .igfollow {
-font-weight: 600; font-size: 7px; color: #CF8678; margin-left: 5px; transition: 0.3s;
+font-weight: 600; font-size: 7px; color: #CC6FDE; margin-left: 5px; transition: 0.3s;
 }
 
 .igfollow:hover {
@@ -328,7 +328,7 @@ width: 260px; height: 260px; background: #fafafa; position: relative; top: 31px;
 }
 
 .posticons {
-width: 240px; height: 15px; position: absolute; margin-top: 35px; margin-left: 10px; font-size: 18px; letter-spacing: 3px; color: #CF8678;
+width: 240px; height: 15px; position: absolute; margin-top: 35px; margin-left: 10px; font-size: 18px; letter-spacing: 3px; color: #E2B5EB;
 }
 
 .igdesc {
@@ -337,14 +337,3 @@ width: 240px; height: 50px; position: absolute; margin-top: 60px; margin-left: 1
 
 -------YT------
 
-.video-responsive {
-    overflow:hidden;cursor:url(https://i.postimg.cc/Px4ysW9f/tiny.png),auto;
-    padding-bottom:560px; /* Adecua este valor para controlar la altura del video */
-    position:relative;
-    height:0;
-}
-.video-responsive iframe{
-    left:5PX;
-    top:10px;
-    position:absolute;
-}
